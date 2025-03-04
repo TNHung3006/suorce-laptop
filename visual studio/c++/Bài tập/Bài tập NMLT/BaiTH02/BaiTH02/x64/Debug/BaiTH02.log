@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+D:\Source Code\visual studio\c++\Bài tập\Bài tập NMLT\BaiTH02\BaiTH02\FileName.cpp(68,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  BaiTH02.vcxproj -> D:\Source Code\visual studio\c++\Bài tập\Bài tập NMLT\BaiTH02\x64\Debug\BaiTH02.exe

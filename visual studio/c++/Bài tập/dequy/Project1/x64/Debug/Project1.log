@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+D:\Source Code\c++\Project1\Project1\FileName.cpp(24,24): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\Source Code\c++\Project1\Project1\FileName.cpp(62,1): error C4716: 'BSCNN': must return a value
