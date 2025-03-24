@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 16pt;
+    font-family: Consolas,'Courier New', Courier, monospace;
+}
+
+body{
+    background: url(../BT_Vidu/De5/background.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 4% 15%;
+}
+nav{
+    width: 100%;
+    height: 15%;
+    float: left;
+}
+nav img{
+    width: 10%;
+    float: left;
+}
+nav div{
+    width: 70%;
+    float: right;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between; /*1 đầu 1 cuối và chia đều khoảng cách các phần tử ở giữa*/
+    padding-left: 8%;
+}
+nav div a{
+    text-decoration: none;    /*bỏ gạch chân*/
+    color: black;
+    font-size: 1.1em;
+    padding: 1% 3%;
+}
+nav div a:hover{
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+main{
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+main img{
+    width: 43%;
+    float: left;
+    margin-right: 10px;
+}
+main h2{
+    color: red;
+    font-size: 35px;
+}
+main h1{
+    font-size: 48px;
+    text-align: left;
+}
+main p{
+    font-size: 15px;
+    text-align: left;
+    padding-top: 2%;
+}
+main button{
+    padding: 0.2% 2%;
+    margin-top: 2%;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    /*font-size: 1.1em;*/
+}
+footer{
+    width: 100%;
+    height: 35%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+footer div {
+    text-align: center;
+}
+footer div img{
+    width: 80%;
+}
+footer div p{
+    font-size: 15px;
+    text-align: center;
+}
+

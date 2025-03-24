@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Source Code\\visual studio\\c\u002B\u002B\\B\u00E0i t\u1EADp\\B\u00E0i t\u1EADp NMLT\\mang2chieu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E34FA100-2F49-476A-A13A-2FCA4B4E3011}|mang2chieu\\mang2chieu.vcxproj|D:\\Source Code\\visual studio\\c\u002B\u002B\\B\u00E0i t\u1EADp\\B\u00E0i t\u1EADp NMLT\\mang2chieu\\mang2chieu\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E34FA100-2F49-476A-A13A-2FCA4B4E3011}|mang2chieu\\mang2chieu.vcxproj|solutionrelative:mang2chieu\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "D:\\Source Code\\visual studio\\c\u002B\u002B\\B\u00E0i t\u1EADp\\B\u00E0i t\u1EADp NMLT\\mang2chieu\\mang2chieu\\FileName.cpp",
+              "RelativeDocumentMoniker": "mang2chieu\\FileName.cpp",
+              "ToolTip": "D:\\Source Code\\visual studio\\c\u002B\u002B\\B\u00E0i t\u1EADp\\B\u00E0i t\u1EADp NMLT\\mang2chieu\\mang2chieu\\FileName.cpp",
+              "RelativeToolTip": "mang2chieu\\FileName.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-09T06:18:39.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

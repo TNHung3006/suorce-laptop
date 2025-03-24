@@ -1,0 +1,17 @@
+public class Overloading{
+	public static void main(String[] args){
+		A a = new A();
+		a.p(10);
+		//a.p(10.0);
+	}
+}
+
+class B{
+	public void p (int i){}
+}
+class A extends B{
+	//This method overloads the method in B
+	public void p (double i){
+		System.out.println(i);
+	}
+}

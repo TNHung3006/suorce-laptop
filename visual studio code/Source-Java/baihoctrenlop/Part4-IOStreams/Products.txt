@@ -1,0 +1,5 @@
+Wasabi 1111 245
+Stove 2222 30000
+Television_21 3333 80000
+Lighters 4444 60
+Ice 5555 300

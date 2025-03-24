@@ -1,0 +1,14 @@
+javac vn\mypackage1\VideoTape.java
+javac TapeStore.java
+
+
+OR
+
+javac TapeStore.java
+-> vn\mypackage1\VideoTape.java will be compiled also!
+
+Trên IntelliJ ở một project nào đó, click và thư mục src
+	+ chọn New -> Package và gõ vn.mypackage1
+	+ Để ý thư mục vn/mypackage1 được tạo bên trong src
+	+ Chép tệp VideoTape.java vào vn/mypackage1 và nhớ thêm dòng đầu tiên của file là package vn.mypackage1;
+	+ Chép tệp TapeStore.java vào thư mục src và biên dịch và chạy như bình thường, để ý dòng import vn.mypackage1.*; 
