@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 16pt;
+    font-family: Consolas, 'Courier New', Courier, monospace;
+}
+body{
+    background: url(../img/images.jpg);
+    background-size: cover;
+    padding: 1% 3%;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 15%;
+    float: left;
+    background: rgb(239, 233, 186);
+    padding: 2% 5%;
+}
+nav h2{
+    float: left;
+    padding: 1% 2%;
+    font-size: 25px;
+    margin-top: -5px;
+    margin-left: -20px;
+}
+nav div {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+nav div a:hover{
+    color: red;
+    background: green;
+    font-weight: bold;
+}
+nav input{
+    float: right;
+    padding-left: 2%;
+    border-radius: 10px;
+    box-shadow: 4px 4px black;
+    font-size: 0.8em;
+    min-width: 50%;
+}
+
+main{
+    width: 100%;
+    height: 35%;
+    float: left;
+    background: rgb(239, 233, 186);
+    display: flex;
+    padding: 2% 5%;
+}
+main h1{
+    width: 100%;
+    font-size: 38px;
+    color: rgb(31, 82, 11);
+    text-align: left;
+}
+main p{
+    width: 100%;
+    font-size: 20px;
+    margin-right: 35px;
+}
+footer{
+    width: 100%;
+    height: 50%;
+    float: left;
+    background: rgb(239, 233, 186);
+    padding: 2% 5%;
+}
+.container{
+    display: flex;
+}
+footer h2{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+footer div img{
+    width: 90%;
+}
+.khung{
+    display: flex;
+    justify-content: space-between;
+}
+.khung button{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 35px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background: green;
+    color: white;
+    box-shadow: 0px 3px black;
+}

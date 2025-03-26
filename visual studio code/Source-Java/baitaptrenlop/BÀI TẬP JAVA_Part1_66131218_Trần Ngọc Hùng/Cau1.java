@@ -1,4 +1,3 @@
-
 public class Cau1{
 	private static int x = 20;
 	public static void main (String args[]){
