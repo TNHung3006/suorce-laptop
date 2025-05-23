@@ -40,6 +40,7 @@ nav div ul a{
 }
 nav div ul a:hover{
     color:  rgb(156, 108, 20);
+    font-weight: bold;
 }
 main{
     width: 100%;
@@ -69,20 +70,23 @@ footer{
 }
 footer div{
     width: 25%;
-    float: left;
 }
 footer div ul{
     text-align: center;
-    line-height: 2.5;
+    line-height: 1;
     margin: 20px;
 }
 footer div ul a{
     text-decoration: none;
     background-color: rgb(225, 221, 213);
     border-radius: 15px;
-    padding: 2% 10%; 
+    height: 40px;
     font-size: 23px;
     color: gray;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column; /* Xếp các ô theo cột */
+    align-items: center; /* Căn giữa các ô theo chiều ngang */
 }
 footer div ul a:hover{
     background: rgb(216, 169, 82);
