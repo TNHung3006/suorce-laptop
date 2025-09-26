@@ -1,0 +1,1 @@
+//tính trùng bình cộng từ số 3 đến số 20 có ảnh trong điệt thoại

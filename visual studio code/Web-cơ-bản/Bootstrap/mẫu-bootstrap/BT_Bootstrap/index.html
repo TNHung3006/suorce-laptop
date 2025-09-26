@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
+	<link rel="stylesheet" href="bootstrap.min.css"/>
+	<script src="bootstrap.bundle.min.js"></script>
+	<script src="jquery-3.7.1.slim.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+	<!-- Menu cơ bản A: menu trái, 1 nút trái -->
+	<nav class="navbar navbar-expand-sm bg-secondary p-2" data-bs-theme="dark" id="parent">
+		<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu_1">
+			<span class="bi bi-list"></span>
+		</button>
+
+		<span class="navbar-brand">LOGO</span>
+
+		<div class="navbar-collapse collapse" data-bs-parent="#parent" id="menu_1">
+			<ul class="navbar-nav mx-2 py-3 py-sm-0">
+				<li class="nav-item">
+					<a class="btn btn-primary rounded-pill" href="#">
+						<span class="bi bi-box-arrow-in-right"></span> Menu 1
+					</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#">Menu 2</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Menu ghép</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Link 1</a>
+							<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Link 2</a>
+							<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Link 3</a>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+<!-- Menu cơ bản B: menu phải, 1 nút phải -->
+<nav class="navbar navbar-expand-sm bg-dark p-2" data-bs-theme="dark" id="parent_2">
+	<span class="navbar-brand">LOGO</span>
+	<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu_2">
+		<span class="bi bi-list"></span>
+	</button>
+
+	<div class="navbar-collapse collapse" data-bs-parent="#parent_2" id="menu_2">
+		<ul class="navbar-nav mx-2 py-3 py-sm-0 ms-auto"> <!-- ms-auto để đẩy menu qua phải -->
+			<li class="nav-item ms-auto"> <!-- ms-auto để đẩy link qua phải trong màn hình nhỏ -->
+				<a class="btn btn-primary rounded-pill" href="#">
+					<span class="bi bi-box-arrow-in-right"></span> Menu 1
+				</a>
+			</li>
+			
+			<li class="nav-item ms-auto"> <!-- ms-auto để đẩy link qua phải trong màn hình nhỏ -->
+				<a class="nav-link" href="#">Menu 2</a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle text-end" href="#" data-bs-toggle="dropdown">Menu ghép</a> <!-- text-end để nhãn menu ghép lệch phải màn hình nhỏ -->
+				<div class="dropdown-menu text-end text-sm-start"> <!-- text-end text-sm-start định dạng menu con lệch phải màn hình nhỏ, lẹch trái màn hình lớn -->
+					<a class="dropdown-item" href="#">Link 1</a>
+						<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Link 2</a>
+						<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Link 3</a>
+				</div>
+
+			</li>
+		</ul>
+	</div>
+</nav>
+
+
+<!-- Menu cơ bản C: menu trái, 1 nút phải -->
+<nav class="navbar navbar-expand-sm bg-secondary p-2" data-bs-theme="dark" id="parent">
+
+	<img src="media/IBM.jpg" class="navbar-brand" alt="logo"/>
+
+	<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu_1">
+		<span class="bi bi-list"></span>
+	</button>
+
+	<div class="navbar-collapse collapse" data-bs-parent="#parent" id="menu_1">
+		<ul class="navbar-nav mx-2 py-3 py-sm-0">
+			<li class="nav-item ms-auto"> <!-- ms-auto để đẩy link qua phải trong màn hình nhỏ -->
+				<a class="btn btn-primary rounded-pill" href="#">
+					<span class="bi bi-box-arrow-in-right"></span> Menu 1
+				</a>
+			</li>
+			
+			<li class="nav-item ms-auto"> <!-- ms-auto để đẩy link qua phải trong màn hình nhỏ -->
+				<a class="nav-link" href="#">Menu 2</a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle text-end" href="#" data-bs-toggle="dropdown">Menu ghép</a> <!-- text-end để nhãn menu ghép lệch phải màn hình nhỏ -->
+				<div class="dropdown-menu text-end text-sm-start"> <!-- text-end text-sm-start định dạng menu con lệch phải màn hình nhỏ, lẹch trái màn hình lớn -->
+					<a class="dropdown-item" href="#">Link 1</a>
+						<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Link 2</a>
+						<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Link 3</a>
+				</div>
+
+			</li>
+		</ul>
+
+		<!--- Thêm ô nhập-->
+		<form class="ms-auto row px-2">
+			<label for="user" class="col-form-label col-sm-auto text-end text-light">
+				Username
+			</label>
+			<div class="col-sm-auto">
+				<input type="text" id="user" class="form-control"/>
+			</div>
+		</form>
+
+		<!--- Thêm ô serch -->
+		<form class="ms-auto row px-2">
+			<button class="btn btn-primary col-auto px-2 ms-auto text-light">
+				Search
+			</button>
+			<div class="col-auto">
+				<input type="search" class="form-control" placeholder="Search"/>
+			</div>
+		</form>
+	</div>
+</nav>
+
+
+<!-- Menu cơ bản D: menu trái, 2 nút -->
+<nav class="navbar navbar-expand-sm bg-warning p-2" id="parent">
+	<!-- Nút 1 -->
+	<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu_1">
+		<span class="bi bi-list"></span>
+	</button>
+
+	<!-- Logo -->
+	<img src="media/IBM.jpg" class="navbar-brand" alt="logo"/>
+
+	<!-- Nút 2 -->
+	<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu_2">
+		<span class="bi bi-list"></span>
+	</button>
+
+	<!-- Menu 1 -->
+	<div class="navbar-collapse collapse" data-bs-parent="#parent" id="menu_1">
+		<ul class="navbar-nav mx-2 py-3 py-sm-0">
+			<li class="nav-item">
+				<a class="btn btn-primary rounded-pill" href="#">
+					<span class="bi bi-box-arrow-in-right"></span> Menu 1
+				</a>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link" href="#">Menu 2</a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Menu ghép</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Link 1</a>
+						<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Link 2</a>
+						<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Link 3</a>
+				</div>
+
+			</li>
+		</ul>
+
+		<!--- Thêm ô nhập-->
+		<form class="ms-auto row">
+			<label for="user" class="col-form-label col-sm-auto">
+				Username
+			</label>
+			<div class="col-sm-auto">
+				<input type="text" id="user" class="form-control"/>
+			</div>
+		</form>
+	</div>
+
+
+	<!-- Menu 2 -->
+	<div class="navbar-collapse collapse" data-bs-parent="#parent" id="menu_2">	
+		<!--- Thêm ô serch -->
+		<form class="ms-auto row px-2">
+			<button class="btn btn-primary col-auto px-2 ms-auto">
+				Search
+			</button>
+			<div class="col-auto">
+				<input type="search" class="form-control" placeholder="Search"/>
+			</div>
+		</form>
+	</div>
+</nav>
+
+<!------------------------------------------------------------------->
+
+
+
+<div class="row">
+	<div class="col-sm-6 bg-primary">
+		<!---------------------------- Slide ảnh ---------------------------------->
+<div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+	<!--- Nút chọn hình -->
+	<div class="carousel-indicators">
+	  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+	  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+	  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+	</div>
+
+	<!--- Phần chính, danh sách các hình trong slide --->
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img src="media/cake_01.png" class="w-100" alt="img01">
+		<div class="carousel-caption d-none d-sm-block">
+		  <h5>First slide label</h5>
+		  <p>Some representative placeholder content for the first slide.</p>
+		</div>
+	  </div>
+	  <div class="carousel-item">
+		<img src="media/cake_02.png" class="w-100" alt="img02">
+		<div class="carousel-caption d-none d-sm-block">
+		  <h5>Second slide label</h5>
+		  <p>Some representative placeholder content for the second slide.</p>
+		</div>
+	  </div>
+	  <div class="carousel-item">
+		<img src="media/cake_02.jpg" class="w-100" alt="img03">
+		<div class="carousel-caption d-none d-sm-block">
+		  <h5>Third slide label</h5>
+		  <p>Some representative placeholder content for the third slide.</p>
+		</div>
+	  </div>
+	</div>
+	
+	<!--- 2 nút chọn hình tiếp theo và quay lại hình trước đó --->
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Next</span>
+	</button>
+</div>
+
+
+	</div>
+
+
+
+	<div class="col-sm-6 row p-0">
+		<div class="bg-light">Text</div>
+		<div class="col-sm-4 bg-warning">Hình nhỏ 1</div>
+		<div class="col-sm-4 col-6 bg-danger">Hình nhỏ 2</div>
+		<div class="col-sm-4 col-6 bg-success">Hình nhỏ 3</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

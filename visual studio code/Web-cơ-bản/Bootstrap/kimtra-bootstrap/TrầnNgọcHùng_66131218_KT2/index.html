@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    
+    <title>Shop Hoa</title>
+</head>
+<body>
+	<header class="px-sm-5 px-2 py-4 text-white">
+		<div class="d-md-flex align-items-center justify-content-between">
+			<h1 class="text-light text-center">SHOP Bán Hoa</h1>
+			<div class="d-none d-md-flex ms-auto">
+				<button class="btn btn-outline-light me-2">Đăng nhập</button>
+				<button class="btn btn-light">Đăng ký</button>
+			</div>
+			<div class="input-group ms-auto">
+				<input type="text" class="form-control border-info border-2" placeholder="Tiềm Kiếm"/>
+				<label class="input-group-text border-info border-2">
+					<span class="bt bi-search"></span>
+				</label>
+			</div>
+		</div>
+	</header>
+    <nav class="navbar navbar-expand-sm fs-10 px-sm-5 py-2">	
+		<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#content_1">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<img class="navbar-brand img-fluid" src="anh/logo.jpg" alt="logo" />
+
+		<div class="collapse navbar-collapse ms-auto" id="content_1">
+			<ul class="navbar-nav ms-auto p-1 bg-success rounded text-danger">
+				<li class="nav-item mx-sm-3 px-1 dropdown" >
+					<a href="#" class="nav-link rounded px-2 fw-bolder text-white dropdown-toggle" data-bs-toggle="dropdown">Loại Hoa</a>
+					<div class="dropdown-menu dropdown-menu-end ms-auto">
+						<a href="#" class="dropdown-item">Hoa Hồng</a>
+						<div class="dropdown-divider"></div>
+						<a href="#" class="dropdown-item">Hoa Hướng Dương</a>
+						<div class="dropdown-divider"></div>
+						<a href="#" class="dropdown-item">Hoa Tú Cầu</a>
+					</div>
+				</li>
+				<li class="nav-item mx-sm-3 px-3">
+					<a class="nav-link rounded px-2 fw-bolder text-white" href="">Chủ Đề</a>
+				</li>
+				<li class="nav-item mx-sm-3 px-3">
+					<a class="nav-link rounded px-2 fw-bolder text-white" href="">Kiểu Dáng</a>
+				</li>
+			</ul>
+		</div>
+
+	</nav>
+
+	<main class="px-sm-5 pb-5 h-">
+		<div id="carouselExample" class="carousel slide px-sm-5" data-bs-ride="carousel">
+		
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+				<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+			</div>
+		
+			
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="anh/slide01.jpg" class="w-100 h-50" alt="Slide01">
+				</div>
+				<div class="carousel-item">
+				<img src="anh/slide02.jpg" class="w-100 h-50" alt="Slide02">
+				</div>
+				<div class="carousel-item">
+				<img src="anh/slide03.jpg" class="w-100 h-50" alt="Slide03">
+				</div>
+			</div>
+
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</button>
+		</div>
+	</main>
+
+	<content class="row px-sm-5">
+		<div class="col-sm-3 text-center p-sm-5">
+			<img class="w-100 h-40 img-fluid" src="anh/img01.jpg" alt="anh1">
+			<span class="text-dark text-center fw-bolder">Hoa hồng</span><br>
+			<span class="text-center fs-1 fw-bold"><span>Giá </span><span class="text-success">7$</span></span><br>
+			<button class="bg-info rounded px-3 py-1 fw-bold text-white">
+				Mua Ngay <span class="bi bi-arrow-right-short"></span>
+			</button>
+		</div>
+		<div class="col-sm-3 col-4 text-center p-5">
+			<img class="w-100 h-40 img-fluid" src="anh/img02.jpg" alt="anh1">
+			<span class="text-dark text-center fw-bolder">Hoa Sim</span><br>
+			<span class="text-center fs-1 fw-bold"><span>Giá </span><span class="text-success">6$</span></span><br>
+			<button class="bg-info rounded px-3 py-1 fw-bold text-white">
+				Mua Ngay <span class="bi bi-arrow-right-short"></span>
+			</button>
+		</div>
+		<div class="col-sm-3 col-4 text-center p-5">
+			<img class="w-100 h-40 img-fluid" src="anh/img03.jpg" alt="anh1">
+			<span class="text-dark text-center fw-bolder">Hướng Dương</span><br>
+			<span class="text-center fs-1 fw-bold"><span>Giá </span><span class="text-success">1$</span></span><br>
+			<button class="bg-info rounded px-3 py-1 fw-bold text-white">
+				Mua Ngay <span class="bi bi-arrow-right-short"></span>
+			</button>
+		</div>
+		<div class="col-sm-3 col-4 text-center p-5">
+			<img class="w-100 h-40 img-fluid" src="anh/img04.jpg" alt="anh1">
+			<span class="text-dark text-center fw-bolder">Hoa Tú Cầu</span><br>
+			<span class="text-center fs-1 fw-bold"><span>Giá </span><span class="text-success">3$</span></span><br>
+			<button class="bg-info rounded px-3 py-1 fw-bold text-white">
+				Mua Ngay <span class="bi bi-arrow-right-short"></span>
+			</button>
+		</div>
+	</content>
+
+	<footer class="bg-secondary text-warning p-1">
+		<h2 class="text-center">Designed By TranNgocHung-66131218</h2>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 105%;
+}
+
+body{
+    background: url(../TrầnNgọcHùng_66131218_KT2/anh/bg.jpg) no-repeat;
+    background-size: cover;
+}
+header{
+    background: url(../TrầnNgọcHùng_66131218_KT2/anh/anhchude.jpg) no-repeat;
+    background-size: cover;
+    height: 120px;
+}
+.navbar-brand{
+    width: 80pt;
+}
+.input-group{
+    width: 300pt;
+}
+
+.nav-link:hover{
+    background: black;
+    color: white;
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand{
+    width: 10%;
+}
+
+.nav-link:hover{
+    background-color: black;
+    color: white;
+}

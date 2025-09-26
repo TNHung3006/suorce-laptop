@@ -37,7 +37,7 @@ char *strrev(char *s){
     return s;
 }
 
-int KT_SDX(char s[]){
+int KT_ChuoiDX(char s[]){
     int n = strlen(s);
     for(int i = 0; i < n; i++){
         if(s[i] != s[n-1-i]) return 0;
@@ -68,7 +68,7 @@ int KT2ChuoiBangNhau(char s1[], char s2[]){
     }
     return 1;
 }
-
+//Đếm các kí tự không phải là chữ cái
 int DemCacKitu(char s[]){
     int count = 0;
     int i = 0;
@@ -81,6 +81,8 @@ int DemCacKitu(char s[]){
     }
     return count;
 }
+
+
 
 void sapxeptangdan(char s[]){
     int n = strlen(s);
@@ -166,9 +168,8 @@ void ChuanHoaKhoangTrang(char s[]){
 
 //chuyển kí tự đàu từ thành in hoa và chuẩn hoá.
 void ChuanHoaChuoi(char s[]){
-    if(s[0] != ' ') strupr(s[0]);
     for(int i = 0; i < strlen(s)-1; i++){    
-        if (s[i] == ' ') strupr(s[i+1]);
+        if (s[i] == ' ' && s[i+1] != ' ') strupr(s[i+1]);
     }
     ChuanHoaKhoangTrang(s);
 }
